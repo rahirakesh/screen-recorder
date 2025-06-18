@@ -1,0 +1,22 @@
+ Libraries (install via pip):
+
+Pillow: Used for screen capturing (PIL.ImageGrab).
+pip install Pillow
+opencv-python: Used for video encoding and writing (cv2.VideoWriter).
+pip install opencv-python
+numpy: Used for numerical operations, especially converting Pillow images to OpenCV compatible arrays.
+pip install numpy
+pyautogui: Used to get the mouse cursor's position for highlighting.
+pip install pyautogui
+PyAudio: Used for recording audio from the microphone.
+pip install PyAudio
+Standard Python Libraries (built-in, no installation needed):
+
+tkinter: For the graphical user interface.
+threading: For running video and audio recording in separate threads.
+time: For managing delays and timestamps.
+datetime: For generating timestamps for filenames.
+os: For operating system interactions (file paths, opening folders).
+sys: For system-specific operations.
+wave: For saving recorded audio to .wav files.
+subprocess: For running external commands, specifically FFmpeg.
